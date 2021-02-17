@@ -1,0 +1,62 @@
+.A {
+	width: 90px;
+	height: 150px;
+	border-left: 10px;
+	border-left-color: #D0D0FF;
+	padding-left: 10px;
+	text-align: left;
+    background-color: #eeeff2;
+    animation-name: animation;
+    animation-duration: 4s;
+}
+
+@keyframes animation {
+    from {background-color: rgb(73, 73, 233);}
+    to {background-color: rgb(250, 116, 221);}
+  }
+
+.A:hover {
+	background-color: yellow;
+	cursor: pointer;
+	
+}
+.B {
+	width: 90px;
+	height: 150px;
+	border-left: 10px;
+	border-left-color: #D0D0FF;
+	padding-left: 10px;
+	text-align: left;
+    background-color: #eeeff2;
+    background-image: linear-gradient(rgb(129, 165, 194), rgb(223, 172, 223));
+}
+.B:hover {
+	background-color: yellow;
+	cursor: pointer;
+}
+.spc {
+	width: 90px;
+	height: 10px;
+	background-color: white;
+}
+.F {
+	width: 90px;
+	height: 150px;
+	border-left: 10px;	
+	border-left-color: #D0D0FF;
+	padding-left: 10px;
+	text-align: left;
+	background-color: #eeeff2;
+    background-image: linear-gradient(rgb(129, 165, 194), rgb(223, 172, 223));
+}
+.F:hover {
+	background-color: yellow;
+	cursor: pointer;
+}
+
+.flex-container {
+	display: flex;
+}
+.flex-container>div{
+	margin-right: 10px;
+}

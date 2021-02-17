@@ -1,0 +1,67 @@
+.A {
+	min-width: 110px;
+	min-height: 150px;
+	border-left: 10px;
+	border-left-color: #D0D0FF;
+	padding-left: 10px;
+	text-align: left;
+	font-size: 40px;
+	font-family: Tahoma;
+	background-color: #eeeff2;
+	border-left-color: #d0d0ff;
+  	border-left-style: dotted;
+}
+.A:hover {
+	background-color: yellow;
+	cursor: pointer;
+}
+.B {
+	min-width: 110px;
+	min-height: 150px;
+	border-left: 10px;
+	border-left-color: #D0D0FF;
+	padding-left: 10px;
+	text-align: left;
+	font-size: 40px;
+	font-family: Tahoma;
+	background-color: #eeeff2;
+	border-left-color: #d0d0ff;
+	border-left-style: dotted;
+}
+.B:hover {
+	background-color: yellow;
+	cursor: pointer;
+}
+.spc {
+	width: 10px;
+	height: 10px;
+	background-color: white;
+	display: none;
+}
+.F {
+	min-width: 110px;
+	min-height: 150px;
+	border-left: 10px;	
+	border-left-color: #D0D0FF;
+	padding-left: 10px;
+	text-align: left;
+	font-size: 40px;
+	font-family: Tahoma;
+	background-color: #eeeff2;
+	border-left-color: #d0d0ff;
+	border-left-style: dotted;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.F:hover {
+	background-color: yellow;
+	cursor: pointer;
+}
+.flex-container {
+	display: flex;
+}
+.flex-container>div{
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
