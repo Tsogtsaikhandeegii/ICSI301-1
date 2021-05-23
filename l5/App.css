@@ -1,0 +1,154 @@
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+.body{
+  font-size: small;
+  color: grey;
+}
+.ehlel{
+  font-size: arial;
+  font: bolder;
+  display: block;
+  text-align: left;
+}
+.suul{
+  color: #1cb6e0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: hsl(248, 52%, 39%);
+}
+
+li {
+  display: inline;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px ;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: hsl(248, 53%, 45%);
+}
+.garchig {
+  background-color: hsl(248, 43%, 52%);
+  margin: 0ch;
+  padding: 0ch;
+  width: 1450px;
+  height: 90px;
+}
+.c{
+  display: block;
+  text-align: left;
+}
+.td.feature {
+  width: 25%;
+  float: left;
+}
+.td.features {
+  width: 75%;
+  float: left;
+}
+.td.mzurag {
+  width: 25%;
+  float: left;
+}
+.td.medeelel {
+  width: 75%;
+  float: left;
+}
+.d{
+  color:rebeccapurple;
+  border: 1px;
+  border-bottom: rgb(177, 15, 15);
+}
+.Hoyr{
+  width: 800px;
+  height: auto;
+  background-color: white;
+  color: black;
+  padding: 0;
+  margin-top: 50px;
+  border: 1px solid transparent;
+  border-color: rgba(248, 248, 255, 0.918);
+  border-bottom: 1px solid transparent;
+  border-color: gainsboro;
+}
+.Neg{
+  width: 800px;
+  height: 230px;
+  background-color: white;
+  color: black;
+  padding: 10;
+  margin-top: 50px;
+  border: 1px solid transparent;
+  border-color: rgba(248, 248, 255, 0.918);
+  border-bottom: 1px solid transparent;
+  border-color: gainsboro;
+}
+.a{
+  padding: 10px;
+  border-style: solid;
+  border-color: palegreen;
+  border-bottom: 10px;
+}
+.p{
+  border-style: solid;
+  border-color: palegreen;
+  border-bottom: 10px;
+}
+.b {
+  margin: 1px;
+  padding: 1px;
+  border-top: 1px gray;
+  color: #1cb6e0;
+  font-size: 15px;
+  font-size: large;
+  font-family:  ' sans-serif';
+}
+.navigation{
+  display: inline;
+  float: left;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: whitesmoke;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
